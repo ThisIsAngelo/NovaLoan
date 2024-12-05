@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>NovaLoan</title>
+  </head>
+  <body>
+    <div class="intro-1">
+      <div id="banner-1"></div>
+      <div id="banner-2"></div>
+      <div id="banner-3"></div>
+      <div id="banner-4"></div>
+      <h1 id="intro-1-logo">NovaLoan.</h1>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="content">
+          <div class="logo" id="logo-nav">
+            <a href="">NovaLoan.</a>
+          </div>
+
+          <nav id="nav">
+            <a href="#">Features</a>
+            <a href="#">Account</a>
+            <a href="#">Loan</a>
+            <a href="#">Company</a>
+          </nav>
+
+          <div class="extra-nav">
+            <div class="btn-area" id="btn-area">
+              <button class="login">Log in</button>
+
+              <button class="register">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <a href="#" class="to-top"><box-icon name="chevron-up"></box-icon></a>
+
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="title-container">
+              <div class="title" id="title-1">
+                <p>Access Hassle-Free</p>
+              </div>
+              <div class="title" id="title-2">
+                <p>Loan anytime with</p>
+              </div>
+              <div class="title" id="title-3">
+                <p>NovaLoan.</p>
+                <div class="radius-button">
+                  <button><span>Get Started</span></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="desc">
+              <div class="card" id="video-card">
+                <box-icon name="play" class="icon"></box-icon>
+              </div>
+
+              <p id="hero-desc">
+                Enjoy fast approvals, <span>no hidden costs</span>, and payment
+                plans tailored to your needs. Your path to financial freedom
+                starts now.
+              </p>
+            </div>
+          </div>
+
+          <div class="right-side">
+            <img src="assets/hero-image.png" alt="hero-image" id="hero-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="content">
+          <div class="title">
+            <h2
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              We have an amazing <span>Services</span>
+            </h2>
+          </div>
+
+          <div class="row-1">
+            <h2
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-out"
+            >
+              Discover our services today and start building the future you’ve
+              always envisioned.
+            </h2>
+            <h1
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-out"
+            >
+              Empowering Your Financial Goals
+            </h1>
+          </div>
+
+          <div class="row-2">
+            <div class="left-side">
+              <div
+                class="box"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-easing="ease-in-out"
+              >
+                <img src="assets/service-1.jpeg" alt="" />
+
+                <div class="col">
+                  <p>01</p>
+                  <h1>Interest Rate Comparison</h1>
+                  <div class="btn">
+                    <button>
+                      View Details
+                      <box-icon name="arrow-back" class="icon"></box-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="radius-1"></div>
+                <div class="radius-2"></div>
+              </div>
+
+              <div class="row">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                  data-aos-easing="ease-in-out"
+                >
+                  01/06
+                </h2>
+
+                <div
+                  class="btn-area"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                  data-aos-easing="ease-in-out"
+                >
+                  <button>
+                    <box-icon name="chevron-left" class="icon"></box-icon>
+                  </button>
+                  <button>
+                    <box-icon name="chevron-right" class="icon"></box-icon>
+                  </button>
+                  <p>Click to next</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-side">
+              <div
+                class="box"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="title">
+                  <p>Our Own Wallet</p>
+                  <h1>Payment Management</h1>
+                </div>
+
+                <div class="row">
+                  <p>02</p>
+                  <div class="image">
+                    <img src="assets/service-2.png" alt="service-2" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container">
+        <div class="content">
+          <div class="title">
+            <h2
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              <span>News</span> for Savvy Borrowers
+            </h2>
+          </div>
+
+          <div class="row-1">
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-out"
+            >
+              Your Guide to Smarter Home Financing
+            </h1>
+
+            <div
+              class="btn-area"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-out"
+            >
+              <button>
+                <box-icon name="chevron-left" class="icon"></box-icon>
+              </button>
+              <button>
+                <box-icon name="chevron-right" class="icon"></box-icon>
+              </button>
+              <p>Click to next</p>
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div
+              class="box-1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              <img src="assets/news-1.jpeg" alt="news-1" />
+              <h1>Key Insights on Rate Changes Coming Soon</h1>
+            </div>
+
+            <div
+              class="box-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-out"
+            >
+              <div class="title">
+                <box-icon name="trending-up" class="icon-trend"></box-icon>
+                <h1>Staying Ahead with Financial Trends</h1>
+              </div>
+
+              <p>
+                An expert perspective by <span>Matthew Waden</span> to help you
+                make informed mortgage decisions.
+              </p>
+            </div>
+
+            <div
+              class="box-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+              data-aos-easing="ease-in-out"
+            >
+              <h1>Smart Moves for First-Time Buyers</h1>
+
+              <div class="row">
+                <p>
+                  Monday, <br /><span>December 30, 2024</span> <br />2.45 PM
+                </p>
+                <img src="assets/news-2.jpeg" alt="news-2" />
+              </div>
+              <div class="btn">
+                <button>
+                  View Articel
+                  <box-icon name="arrow-back" class="icon"></box-icon>
+                </button>
+              </div>
+
+              <div class="radius-1"></div>
+              <div class="radius-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container">
+        <div class="content">
+          <div
+            class="title"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            data-aos-easing="ease-in-out"
+          >
+            <h2>TESTIMONIAL</h2>
+            <h1>What our clients say about us</h1>
+          </div>
+
+          <div class="row">
+            <div
+              class="comment"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              <img src="assets/comment.jpeg" alt="comment" />
+              <h1>John Smith</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                aut dolor nemo dicta id cum labore fugiat eos vitae aspernatur.
+              </p>
+              <div class="star">
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon name="star-half" type="solid"></box-icon>
+              </div>
+              <div class="radius-1"></div>
+              <div class="radius-2"></div>
+            </div>
+
+            <div
+              class="comment"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-out"
+            >
+              <img src="assets/comment.jpeg" alt="comment" />
+              <h1>John Smith</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                aut dolor nemo dicta id cum labore fugiat eos vitae aspernatur.
+              </p>
+              <div class="star">
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+              </div>
+              <div class="radius-1"></div>
+              <div class="radius-2"></div>
+            </div>
+
+            <div
+              class="comment"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              <img src="assets/comment.jpeg" alt="comment" />
+              <h1>John Smith</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                aut dolor nemo dicta id cum labore fugiat eos vitae aspernatur.
+              </p>
+              <div class="star">
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon name="star"></box-icon>
+              </div>
+              <div class="radius-1"></div>
+              <div class="radius-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download">
+      <div class="container">
+        <div class="content">
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="left-side">
+              <h2>Simplifying <span>Your Journey</span> to Homeownership</h2>
+              <h1>Download <br />Mobile App</h1>
+              <div class="row">
+                <div class="arrow-icon">
+                  <box-icon name="chevron-up" class="icon"></box-icon>
+                </div>
+
+                <p>Your Path to Homeownership, Designed Just for You</p>
+              </div>
+              <div class="btn">
+                <button>
+                  DOWNLOAD NOW
+                  <box-icon name="arrow-back" class="icon"></box-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="right-side">
+              <img src="assets/download.png" alt="download" />
+            </div>
+
+            <div class="radius-1"></div>
+            <div class="radius-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="row-1">
+            <div class="left-side">
+              <div class="list">
+                <div class="title" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                  <box-icon
+                    name="circle"
+                    type="solid"
+                    class="circle"
+                  ></box-icon>
+                  <h1>
+                    Explore
+                  </h1>
+                </div>
+                
+                <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                  <li>
+                    <a href="#">Features</a>
+                  </li>
+                  <li>
+                    <a href="#">Account</a>
+                  </li>
+                  <li>
+                    <a href="#">Loan</a>
+                  </li>
+                  <li>
+                    <a href="#">Company</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="list">
+                <div class="title" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                  <box-icon
+                    name="circle"
+                    type="solid"
+                    class="circle"
+                  ></box-icon>
+                  <h1>
+                    Social
+                  </h1>
+                </div>
+                
+                <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                  <li>
+                    <a href="#">Tiktok</a>
+                  </li>
+                  <li>
+                    <a href="#">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#">Youtube</a>
+                  </li>
+                  <li>
+                    <a href="#">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="right-side">
+              <button data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="200"><span>Contact us</span></button>
+              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">novasupport@novaloan</h1>
+            </div>
+          </div>
+
+          <div class="row-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <p class="copy">&copy; 2024 NOVALOAN</p>
+
+            <div class="action">
+              <a href="">Privacy Policy</a>
+              <a href="">Terms & Conditions</a>
+            </div>
+
+            <p class="dev" >
+              Develop by <span>Angelo</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
